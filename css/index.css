@@ -1,0 +1,156 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 20px;
+}
+
+#grid {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 528px 68px;
+    background-image: url(/img/icons.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    position: relative;
+    top: 10px;
+}
+
+#grid:hover {
+    opacity: .75;
+}
+
+#search-icon {
+    color: #9AA0A6;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#mic-icon {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    right: 16px;
+    top: 12px;
+}
+
+#signin {
+    font-weight: bold;
+    background: #4285f4;
+    border: 1px solid #3680f7;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+}
+
+.container {
+    height: 330px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    position: relative;
+    margin-top: 10px;
+}
+
+.topleft {
+    position: absolute;
+    top: 23px;
+    left: 8px;
+    opacity: 0.75;
+}
+
+.topright {
+    position: absolute;
+    top: 3px;
+    right: 25px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    font-size: 16px;
+    line-height: 50px;
+    border: 1px solid #e4e4e4;
+    border-radius: 30px;
+    height: 44px;
+    width: 540px;
+    padding-left: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+main {
+    margin: 40px;
+    padding: 20px;
+}
+
+footer {
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#google-img {
+    width: 272px;
+}
+
+header li {
+    padding: 0px 0px 0px 15px;
+}
+
+footer li {
+    color: #5f6368;
+    padding: 0px 0px 0px 27px;
+}
